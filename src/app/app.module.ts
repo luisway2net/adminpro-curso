@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Rutas
-import { APP_ROUTES } from './app.routes';
+import { AppRoutingModule } from './app.routes';
 
 
 import { AppComponent } from './app.component';
@@ -33,7 +33,7 @@ import { RegisterComponent } from './login/register.component';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTES
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

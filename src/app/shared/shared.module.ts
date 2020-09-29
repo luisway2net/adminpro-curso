@@ -6,20 +6,20 @@ import { HeaderComponent } from './header/header.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 
-
-
 @NgModule({
   declarations: [
+    NopagefoundComponent,
     SidebarComponent,
     HeaderComponent,
-    NopagefoundComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    NopagefoundComponent
   ],
   exports: [
+    NopagefoundComponent,
     SidebarComponent,
     HeaderComponent,
-    NopagefoundComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    NopagefoundComponent
   ],
   imports: [
     CommonModule
